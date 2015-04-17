@@ -17,7 +17,13 @@
     {{ghost_head}}
 </head>
 <body class="{{body_class}}">
-    {{{body}}}
+    {{navigation}}
+    <section id="wrapper">
+        <div id="ajax-container">
+            {{{body}}}
+            <div id="body-class" style="display: none;" class="{{body_class}}"></div>
+        </div>
+    </section>
     <footer class="animated fadeIn" id="footer">    
         {{> footer}}
     </footer>

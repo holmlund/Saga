@@ -2,6 +2,7 @@
 /* jshint browser: true */
 
 var siteurl = $('#site-url').attr("href"); // Get url for blog (in case site is run under a sub-domain)
+var body = $('body');
 
 /******************
  * HIGHLIGHT CODE *
@@ -200,3 +201,23 @@ if($("#main").hasClass("archive")){
         });
     });
 }
+
+/*******************
+ * NAVIGATION      *
+ *******************/
+
+function menu() {
+    body.toggleClass('menu-active');
+};
+
+$('#menu').on({
+    'click': function () {
+        menu();
+    }
+});
+
+$('.menu-button').on({
+    'click': function () {
+        menu();
+    }
+});

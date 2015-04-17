@@ -1,0 +1,15 @@
+<div id="menu">
+    <a class="close-button">Close</a>
+    <ul>
+        {{#foreach navigation}}
+            <li class="nav-{{slug}}{{#if current}} active{{/if}}" role="presentation"><a href="{{url absolute="true"}}">{{label}}</a></li>
+        {{/foreach}}
+        <li class="social-icons">
+        <a title="RSS Feed" href="/rss/"><i class="fa fa-rss-square fa-2x"></i></a>
+        <a title="GitHub" href="https://github.com/holmlund"><i class="fa fa-github-square fa-2x"></i></a>
+        <a title="LinkedIn" href="http://www.linkedin.com/in/davidholmlund"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        <a title="Google Plus" href="https://plus.google.com/+DavidHolmlund?rel=author"><i class="fa fa-google-plus-square fa-2x"></i></a>
+        <a title="Facebook" href="http://www.facebook.com/davidholmlund"><i class="fa fa-facebook-square fa-2x"></i></a>
+        <a title="Instagram" href="http://www.instagram.com/davidholmlund"><i class="fa fa-instagram fa-2x"></i></a>
+    </ul>
+</div>
