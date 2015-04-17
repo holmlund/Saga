@@ -34,3 +34,6 @@ Thumbs.db
 .sass-cache
 *.psd
 *.css.map
+
+# Editor specific
+.idea
