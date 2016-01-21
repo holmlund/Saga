@@ -23,7 +23,7 @@ Navigation
     transition: color, border ease 0.3s;
     border-bottom: none;
     &:hover, &:focus {
-      color: #a4c639;
+      color: #D84315;
     }
   }
 }
@@ -61,8 +61,8 @@ Navigation
   height: 0;
   top: 0;
   right: 0;
-  background: #a4c639;
-  background: rgba(164, 198, 57, 0.95);
+  background: #D84315;
+  background: rgba(216, 67, 21, 0.95);
   z-index: 400;
   overflow: hidden;
   opacity: 0;
